@@ -1,0 +1,121 @@
+services:
+  pkuser01:
+    image: pkteam:1.0
+    container_name: pkuser01
+    hostname: PK01
+    ports:
+      - "2201:22"
+      - "8001:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser01:/home/pkuser/data
+  pkuser02:
+    image: pkteam:1.0
+    container_name: pkuser02
+    hostname: PK02
+    ports:
+      - "2202:22"
+      - "8002:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser02:/home/pkuser/data
+  pkuser03:
+    image: pkteam:1.0
+    container_name: pkuser03
+    hostname: PK03
+    ports:
+      - "2203:22"
+      - "8003:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser03:/home/pkuser/data
+  pkuser04:
+    image: pkteam:1.0
+    container_name: pkuser04
+    hostname: PK04
+    ports:
+      - "2204:22"
+      - "8004:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser04:/home/pkuser/data
+  pkuser05:
+    image: pkteam:1.0
+    container_name: pkuser05
+    hostname: PK05
+    ports:
+      - "2205:22"
+      - "8005:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser05:/home/pkuser/data
+  pkuser06:
+    image: pkteam:1.0
+    container_name: pkuser06
+    hostname: PK06
+    ports:
+      - "2206:22"
+      - "8006:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser06:/home/pkuser/data
+  pkuser07:
+    image: pkteam:1.0
+    container_name: pkuser07
+    hostname: PK07
+    ports:
+      - "2207:22"
+      - "8007:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser07:/home/pkuser/data
+  pkuser08:
+    image: pkteam:1.0
+    container_name: pkuser08
+    hostname: PK08
+    ports:
+      - "2208:22"
+      - "8008:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser08:/home/pkuser/data
+  pkuser09:
+    image: pkteam:1.0
+    container_name: pkuser09
+    hostname: PK09
+    ports:
+      - "2209:22"
+      - "8009:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser09:/home/pkuser/data
+  pkuser10:
+    image: pkteam:1.0
+    container_name: pkuser10
+    hostname: PK10
+    ports:
+      - "2210:22"
+      - "8010:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser10:/home/pkuser/data
+  pkuser11:
+    image: pkteam:1.0
+    container_name: pkuser11
+    hostname: PK11
+    ports:
+      - "2211:22"
+      - "8011:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser11:/home/pkuser/data
+  pkuser12:
+    image: pkteam:1.0
+    container_name: pkuser12
+    hostname: PK12
+    ports:
+      - "2212:22"
+      - "8012:8080"
+    restart: unless-stopped
+    volumes:
+      - D:/data/container_ssh/pkuser12:/home/pkuser/data
